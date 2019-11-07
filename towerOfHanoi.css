@@ -1,0 +1,65 @@
+.bg{
+    background-color: steelblue;
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+.tower{
+    height: 250px;
+    padding: 5px;
+    border-right: 5px solid white;
+    margin: 4.5em auto 1.5em 0.5em;
+}
+.base{
+    border-bottom: 5px solid white;
+    height: inherit;
+    position: relative;
+    left: 6em;
+    border-radius: 3%;
+}
+
+.moves{
+    margin-top: 1em;
+}
+.disc1{
+    height: 20px;
+    border-radius: 20%;
+    background-image: radial-gradient(gray, purple);
+    position: relative;
+    left: 3.3em;
+    width: 40%;
+    top: 11.65em;
+    z-index: 1;
+}
+.disc2{
+    z-index: 1;
+    height: 20px;
+    border-radius: 20%;
+    background-image: radial-gradient(rgb(247, 247, 170), yellowgreen);
+    position: relative;
+    left: 2em;
+    width: 60%;
+    top: 11.65em;
+}
+.disc3{
+    z-index: 1;
+    height: 20px;
+    border-radius: 20%;
+    background-image: radial-gradient(pink, red);
+    position: relative;
+    left: 1em;
+    width: 80%;
+    top: 11.55em;
+}
+li, h3{
+    color: white;
+}
+button{
+    width: 100%;
+    margin-top: 0.5em;
+    margin-left: 6em;
+    border: none;
+    color: black;
+    background-color: white;
+}
